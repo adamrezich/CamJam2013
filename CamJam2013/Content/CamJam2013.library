@@ -8,6 +8,7 @@ ContentLibrary =
 		"Dumptruck.Archetype.data",
 		"DumptruckLogic.py",
 		"Game.data",
+		"GenericSprite.Archetype.data",
 		"Level.data",
 		"Space.data",
 		"citizen.png",
