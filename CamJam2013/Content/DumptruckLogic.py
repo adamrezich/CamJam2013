@@ -20,11 +20,13 @@ class DumptruckLogic:
     MusicEmitter = None
     EngineEmitter = None
     StartTimer = 3
+    LineTimer = -1
         
     def Initialize(self, initializer):
         Zero.Connect(self.Space, Events.LogicUpdate, self.OnLogicUpdate)
         Zero.Connect(self.Owner, Events.CollisionStarted, self.OnCollisionStarted)
         self.EngineEmitter = self.Space.CreateAtPosition("GenericSoundEmitter", VectorMath.Vec3())
+        self.EngineEmitter.SoundEmitter.Volume = 3;
         self.MusicEmitter = self.Space.CreateAtPosition("GenericSoundEmitter", VectorMath.Vec3())
         self.MusicEmitter.SoundEmitter.PlayCue("mus_01")
         self.Owner.SoundEmitter.PlayCue("dt_start")
@@ -38,9 +40,19 @@ class DumptruckLogic:
                 CollisionEvent.OtherObject.Transform.Translation -= VectorMath.Vec3(0, 0, 0.5)
                 CollisionEvent.OtherObject.SoundEmitter.PlayCue(random.choice(["c_die_01", "c_die_02", "c_die_03", "c_die_04", "c_die_05", "c_die_06"]))
                 self.Owner.SoundEmitter.PlayCue("dt_dirtdump")
+                if self.LineTimer < 0:
+                    if random.random() > 0.65:
+                        self.LineTimer = min(1 + random.random() * 1, 3)
+                else:
+                    self.LineTimer = min(self.LineTimer + 0.25 + random.random() * 1, 2)
         pass
 
     def OnLogicUpdate(self, UpdateEvent):
+        if self.LineTimer >= 0:
+            self.LineTimer -= UpdateEvent.Dt
+            if self.LineTimer < 0:
+                self.LineTimer = -1
+                self.Owner.SoundEmitter.PlayCue(random.choice(["vox_notgonnahappen", "vox_welldammit", "vox_welldammituh", "vox_wheresdadirt", "vox_yeahfillerup"]))
         self.StartTimer -= UpdateEvent.Dt
         if self.StartTimer < 0 and not self.StartedUp:
             self.StartedUp = True
@@ -75,7 +87,8 @@ class DumptruckLogic:
         self.Velocity.x = math.cos(self.Angle)
         self.Velocity.y = math.sin(self.Angle)
         self.Velocity *= self.Speed
-        self.Owner.Transform.Translation += self.Velocity
+        #self.Owner.Transform.Translation += self.Velocity
+        self.Owner.RigidBody.Velocity = self.Velocity * 30
         cam = self.Space.FindObjectByName("Camera")
         cam.Transform.Translation = self.Owner.Transform.Translation + VectorMath.Vec3(0, 0, 40)
         cam.Camera.Size = 6 + abs(self.Speed) * 48
@@ -87,6 +100,9 @@ class DumptruckLogic:
             if self.BackingUp:
                 self.Owner.SoundEmitter.Stop()
             self.BackingUp = False
+        self.EngineEmitter.SoundEmitter.Pitch = 0.5 + abs(self.Speed) * 11
+        if self.Speed < 0 and random.random() > 0.999:
+            self.Owner.SoundEmitter.PlayCue("vox_backitup")
             
             
 

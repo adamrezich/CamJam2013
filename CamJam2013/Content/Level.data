@@ -55,7 +55,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-5.18, -0.6, 90],
+			Vec3 Translation = [0.9775, 0.015, 90],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278e-008, 0, 1],
 		},
@@ -67,7 +67,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 19,
+			float Size = 14,
 		},
 		EditorCameraController = 
 		{
@@ -75,26 +75,19 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [-5.18, -0.6, 40],
+			Vec3 LookTarget = [0.9775, 0.015, 40],
 		},
 		EditorRenderer = 
 		{
 			Vec4 ClearColor = [0.278431, 0.278431, 0.278431, 1],
 		},
 	},
-	Cog = 
+	ArchetypeInstance = 
 	{
+		string Name = "52c9adf6d578550c:Dumptruck",
 		LinkId = 
 		{
 			uint Id = 4,
-		},
-		Named = 
-		{
-			string Name = "Dumptruck",
-		},
-		Archetyped = 
-		{
-			string Name = "52c9adf6d578550c:Dumptruck",
 		},
 		Transform = 
 		{
@@ -102,61 +95,9 @@ Level =
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
-		Sprite = 
+		Named = 
 		{
-			string SpriteSource = "52c9aefcbe132ad1:dumptruck",
-			bool FlipX = false,
-			bool FlipY = false,
-			Vec4 Color = [1, 1, 1, 1],
-			bool Visible = true,
-			bool OnTop = false,
-			bool AnimationActive = true,
-			float AnimationSpeed = 1,
-			uint StartFrame = 0,
-			BlendMode BlendMode = Alpha,
-			SpriteGeometryMode GeometryMode = ZPlane,
-		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = false,
-			string MaterialName = "4faa6050b8692851:HardMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [0.5, 0.25, 0.5],
-		},
-		DumptruckLogic = 
-		{
-		},
-		RigidBody = 
-		{
-			bool Static = false,
-			bool Asleep = false,
-			bool Kinematic = false,
-			bool RotationLocked = false,
-			bool Mode2D = true,
-			bool AllowSleep = true,
-			bool Inherit2DMode = true,
-			Vec3 Velocity = [0, 0, 0],
-			Vec3 AngularVelocity = [0, 0, 0],
-		},
-		GravityEffect = 
-		{
-			bool Active = true,
-			bool WakeUpOnChange = false,
-			bool LocalSpaceDirection = false,
-			float Strength = -10,
-			Vec3 Direction = [0, -1, 0],
-		},
-		SoundEmitter = 
-		{
-			bool StartPlaying = false,
-			int ExtraPriority = 0,
-			string CueName = "4e1bd44008b4dc2a:DefaultCue",
-			float Volume = 1,
-			float Pitch = 1,
-			bool Positional = true,
+			string Name = "Dumptruck",
 		},
 	},
 	Cog = 
@@ -195,7 +136,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [2.59318, 0.0345104, 0],
+			Vec3 Translation = [3.73167, -0.618072, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -213,7 +154,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [3.30914, 0.0345104, 0],
+			Vec3 Translation = [1.57205, 0.0345104, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -231,7 +172,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [1.57205, 0.0345104, 0],
+			Vec3 Translation = [4.49459, -0.336382, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -249,7 +190,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [4.07205, 0.0345104, 0],
+			Vec3 Translation = [2.59318, 0.3162, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -267,7 +208,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [1.57205, 0.3162, 0],
+			Vec3 Translation = [1.2082, 0.163618, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -285,115 +226,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [4.07205, 0.3162, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 11,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [3.30914, 0.3162, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 12,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [2.59318, 0.3162, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 13,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [1.2082, 0.163618, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 14,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [2.22933, 0.163618, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 15,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [2.94529, 0.163618, 0],
-			Vec3 Scale = [1, 1, 1],
-			Quat Rotation = [0, 0, 0, 1],
-		},
-		Named = 
-		{
-			string Name = "Citizen",
-		},
-	},
-	ArchetypeInstance = 
-	{
-		string Name = "52c9a387387f0f58:Citizen",
-		LinkId = 
-		{
-			uint Id = 16,
-		},
-		Transform = 
-		{
-			Vec3 Translation = [3.7082, 0.163618, 0],
+			Vec3 Translation = [3.36783, -0.488964, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
@@ -406,7 +239,7 @@ Level =
 	{
 		LinkId = 
 		{
-			uint Id = 17,
+			uint Id = 11,
 		},
 		Named = 
 		{
@@ -435,7 +268,7 @@ Level =
 		string Name = "52c9dbd6c64fc4dc:GenericSoundEmitter",
 		LinkId = 
 		{
-			uint Id = 18,
+			uint Id = 12,
 		},
 		Transform = 
 		{
@@ -446,6 +279,114 @@ Level =
 		Named = 
 		{
 			string Name = "GenericSoundEmitter",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 13,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.09932, -3.9561, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 14,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.46316, -3.82699, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 15,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.336396, -3.9561, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 16,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [3.62135, -3.82699, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 17,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [3.98519, -3.9561, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 18,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.74811, -3.67441, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
 		},
 	},
 },

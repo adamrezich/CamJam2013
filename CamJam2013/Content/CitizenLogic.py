@@ -16,15 +16,18 @@ class CitizenLogic:
     
     def OnLogicUpdate(self, UpdateEvent):
         if self.Dead:
+            self.Owner.RigidBody.Velocity = VectorMath.Vec3(0, 0, 0)
+            self.Owner.RigidBody.RotationLocked = True
             return
         self.Timer -= UpdateEvent.Dt
         if self.Timer < 0:
             self.Timer = 0.5 + random.random() * 4
             self.Angle = random.random() * math.pi * 2
             self.Speed = random.random() * 0.02
-        trans = self.Owner.Transform.Translation
-        trans += VectorMath.Vec3(math.cos(self.Angle), math.sin(self.Angle), 0) * self.Speed
-        self.Owner.Transform.Translation = trans
+        #trans = self.Owner.Transform.Translation
+        #trans += VectorMath.Vec3(math.cos(self.Angle), math.sin(self.Angle), 0) * self.Speed
+        #self.Owner.Transform.Translation = trans
+        self.Owner.RigidBody.Velocity = VectorMath.Vec3(math.cos(self.Angle), math.sin(self.Angle), 0) * self.Speed * 32
         pass
 
     def OnCollisionStarted(self, CollisionEvent):
