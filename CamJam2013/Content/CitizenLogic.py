@@ -21,16 +21,18 @@ class CitizenLogic:
             return
         self.Timer -= UpdateEvent.Dt
         if self.Timer < 0:
-            self.Timer = 0.5 + random.random() * 4
-            self.Angle = random.random() * math.pi * 2
-            self.Speed = random.random() * 0.02
-        #trans = self.Owner.Transform.Translation
-        #trans += VectorMath.Vec3(math.cos(self.Angle), math.sin(self.Angle), 0) * self.Speed
-        #self.Owner.Transform.Translation = trans
+            self.MoveRandomly()
+        if (self.Space.FindObjectByName("Dumptruck").Transform.Translation - self.Owner.Transform.Translation).length() < 2:
+            self.Angle = math.atan2(self.Owner.Transform.Translation.y - self.Space.FindObjectByName("Dumptruck").Transform.Translation.y , self.Owner.Transform.Translation.x - self.Space.FindObjectByName("Dumptruck").Transform.Translation.x)
         self.Owner.RigidBody.Velocity = VectorMath.Vec3(math.cos(self.Angle), math.sin(self.Angle), 0) * self.Speed * 32
         pass
 
     def OnCollisionStarted(self, CollisionEvent):
-        pass
+        self.MoveRandomly()
+    
+    def MoveRandomly(self):
+        self.Timer = 0.5 + random.random() * 4
+        self.Angle = random.random() * math.pi * 2
+        self.Speed = 0.01 + random.random() * 0.015
 
 Zero.RegisterComponent("CitizenLogic", CitizenLogic)
