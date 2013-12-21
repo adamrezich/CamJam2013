@@ -1,0 +1,1 @@
+Someday, my son, you will go forth and strip the bones from the moon-and-sun.
