@@ -67,7 +67,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 14,
+			float Size = 19,
 		},
 		EditorCameraController = 
 		{
@@ -82,12 +82,19 @@ Level =
 			Vec4 ClearColor = [0.278431, 0.278431, 0.278431, 1],
 		},
 	},
-	ArchetypeInstance = 
+	Cog = 
 	{
-		string Name = "52c9adf6d578550c:Dumptruck",
 		LinkId = 
 		{
 			uint Id = 4,
+		},
+		Named = 
+		{
+			string Name = "Dumptruck",
+		},
+		Archetyped = 
+		{
+			string Name = "52c9adf6d578550c:Dumptruck",
 		},
 		Transform = 
 		{
@@ -95,9 +102,65 @@ Level =
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
-		Named = 
+		Sprite = 
 		{
-			string Name = "Dumptruck",
+			string SpriteSource = "52c9aefcbe132ad1:dumptruck",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		BoxCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			Vec3 Size = [0.5, 0.25, 0.5],
+		},
+		DumptruckLogic = 
+		{
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		GravityEffect = 
+		{
+			bool Active = true,
+			bool WakeUpOnChange = false,
+			bool LocalSpaceDirection = false,
+			float Strength = -10,
+			Vec3 Direction = [0, -1, 0],
+		},
+		SoundEmitter = 
+		{
+			bool StartPlaying = false,
+			int ExtraPriority = 0,
+			string CueName = "4e1bd44008b4dc2a:DefaultCue",
+			float Volume = 1,
+			float Pitch = 1,
+			bool Positional = false,
+		},
+		Microphone = 
+		{
+			bool Active = true,
 		},
 	},
 	Cog = 

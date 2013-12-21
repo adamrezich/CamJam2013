@@ -72,6 +72,10 @@ Cog =
 		string CueName = "4e1bd44008b4dc2a:DefaultCue",
 		float Volume = 1,
 		float Pitch = 1,
-		bool Positional = false,
+		bool Positional = true,
+	},
+	Microphone = 
+	{
+		bool Active = true,
 	},
 },

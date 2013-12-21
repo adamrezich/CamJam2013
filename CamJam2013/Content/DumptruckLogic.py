@@ -11,7 +11,7 @@ class DumptruckLogic:
     Acceleration = 0.0005
     Deceleration = 0.00025
     Speed = 0
-    TurnSpeed = 0.035
+    TurnSpeed = 0.022
     Velocity = VectorMath.Vec3()
     Angle = 0
     StartedUp = False
@@ -79,6 +79,7 @@ class DumptruckLogic:
                 self.DumpTimer = 0.15
                 dump = self.Space.CreateAtPosition("GenericSprite", self.Owner.Transform.Translation + VectorMath.Vec3(0, 0, -0.5))
                 dump.Sprite.SpriteSource = "citizen_dumped"
+                dump.Transform.RotateByAnglesXYZ(0, 0, random.random() * 2 * math.pi)
                 self.Owner.SoundEmitter.PlayCue("dt_dirtdump")
         while self.Angle >= math.pi * 2:
             self.Angle -= math.pi * 2
