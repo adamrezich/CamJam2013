@@ -6,6 +6,7 @@ ContentLibrary =
 		"Game.data",
 		"Level.data",
 		"Space.data",
+		"dumptruck.png",
 	],
 	uint64 LibraryId = 52c99e27690d1944,
 	string SourceControlType = "",
