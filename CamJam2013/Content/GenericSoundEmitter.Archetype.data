@@ -1,0 +1,30 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "GenericSoundEmitter",
+	},
+	Archetyped = 
+	{
+		string Name = "52c9dbd6c64fc4dc:GenericSoundEmitter",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-5.18, -0.6, 40],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SoundEmitter = 
+	{
+		bool StartPlaying = false,
+		int ExtraPriority = 0,
+		string CueName = "4e1bd44008b4dc2a:DefaultCue",
+		float Volume = 1,
+		float Pitch = 1,
+		bool Positional = false,
+	},
+},
