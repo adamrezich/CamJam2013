@@ -55,7 +55,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [0.9775, 0.015, 90],
+			Vec3 Translation = [8.99249, -10.525, 90],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278e-008, 0, 1],
 		},
@@ -67,7 +67,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 19,
+			float Size = 76,
 		},
 		EditorCameraController = 
 		{
@@ -75,7 +75,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [0.9775, 0.015, 40],
+			Vec3 LookTarget = [8.99249, -10.525, 40],
 		},
 		EditorRenderer = 
 		{
@@ -444,6 +444,2616 @@ Level =
 		Transform = 
 		{
 			Vec3 Translation = [4.74811, -3.67441, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 19,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [1.21159, -9.31214, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 20,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [1.21159, -6.43288, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 21,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.9639, -6.43288, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 22,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.9639, -10.5815, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 23,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.9639, -8.81679, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 24,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.9639, -14.6063, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 25,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.4066, -14.6063, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 26,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.4066, -11.8818, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 27,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [11.2425, -11.8818, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 28,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [11.2425, -16.309, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 29,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.97934, -16.309, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 30,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.97934, -13.8013, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 31,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.901942, -13.8013, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 32,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.901942, -16.8044, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 33,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-3.46338, -16.8044, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 34,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.097, -16.8044, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 35,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.097, -22.3772, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 36,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [11.0568, -22.3772, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 37,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [11.0568, -19.5599, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 38,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [11.0568, -27.8881, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 39,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [9.94225, -27.8881, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 40,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [9.94225, -23.6157, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 41,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.4066, -4.01806, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 42,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [16.1651, -4.01806, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 43,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [21.4592, -4.01806, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 44,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [26.9391, -4.01806, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 45,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [30.2827, -4.01806, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 46,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [30.2827, -5.50413, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 47,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.3229, -5.50413, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 48,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [26.9391, 0.0345712, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 49,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [24.0444, 0.0345712, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 50,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [24.0444, 3.56089, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 51,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [26.6233, 3.56089, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 52,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [26.6233, 4.71878, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 53,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [28.097, 4.71878, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 54,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [28.097, 1.03457, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 55,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [25.2023, 1.03457, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 56,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 1.03457, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 57,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 5.56088, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 58,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 10.4556, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 59,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 13.5609, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 60,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 15.3504, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 61,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 16.7715, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 62,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 17.4557, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 63,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 18.2978, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 64,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 18.7715, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 65,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 19.1399, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 66,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [22.8865, 20.1925, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 67,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.9918, 20.1925, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 68,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 20.1925, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 69,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 17.6136, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 70,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 16.9294, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 71,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 15.561, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 72,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 14.8242, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 73,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 14.2979, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 74,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [19.5181, 13.719, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 75,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [20.2023, 13.6137, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 76,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [17.2549, 13.719, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 77,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [17.9918, 13.6137, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 78,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [17.9918, 11.5611, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 79,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [14.3076, 11.5611, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 80,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [12.3076, 11.5611, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 81,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.5181, 11.5611, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 82,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [9.3602, 11.5611, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 83,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [10.5181, 10.6664, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 84,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [9.3602, 10.6664, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 85,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 10.6664, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 86,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 10.6664, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 87,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 11.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 88,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 11.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 89,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 11.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 90,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 11.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 91,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 13.6138, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 92,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 13.6138, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 93,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 14.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 94,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 14.4559, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 95,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 14.7191, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 96,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 14.7191, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 97,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 16.0875, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 98,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 16.0875, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 99,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 22.877, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 100,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 22.877, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 101,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 21.3677, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 102,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 21.3677, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 103,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 20.8847, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 104,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 20.8847, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 105,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 19.4962, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 106,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 19.4962, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 107,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 19.2547, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 108,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 19.2547, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 109,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [8.3602, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 110,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.2023, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 111,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [6.36794, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 112,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.21004, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 113,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.02892, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 114,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [6.18682, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 115,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.30446, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 116,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.46236, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 117,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [5.03976, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 118,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [3.88186, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 119,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.632639, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 120,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.525261, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 121,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.391153, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 122,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 123,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 124,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.391153, 10.0782, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 125,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0.391153, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 126,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 127,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 128,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 129,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 130,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 11.1649, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 131,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 11.2253, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 132,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 11.2253, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 133,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 12.6742, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 134,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 12.6742, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 135,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 12.6742, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 136,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 12.6742, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 137,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 13.0968, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 138,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 13.0968, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 139,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 14.9683, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 140,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 14.9683, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 141,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 15.3305, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 142,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 15.3305, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 143,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 16.719, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 144,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 16.719, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 145,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-1.85344, 17.6246, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 146,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.695535, 17.6246, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 147,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 7.9652, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 148,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 7.24074, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 149,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 150,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 5.24848, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 151,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-0.766747, 4.28253, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 152,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [1.16514, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 153,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [1.64811, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 154,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [2.13108, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 155,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [2.79517, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 156,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.56452, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 157,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [7.74563, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 158,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [6.17597, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 159,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.54594, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 160,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.36483, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 161,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.90817, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 162,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.90817, 6.2748, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Citizen",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "52c9a387387f0f58:Citizen",
+		LinkId = 
+		{
+			uint Id = 163,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [4.90817, 4.70514, 0],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
