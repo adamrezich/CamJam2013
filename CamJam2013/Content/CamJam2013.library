@@ -1,0 +1,13 @@
+ContentLibrary = 
+{
+	string Name = "CamJam2013",
+	Array Files = 
+	[
+		"Game.data",
+		"Level.data",
+		"Space.data",
+	],
+	uint64 LibraryId = 52c99e27690d1944,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},
