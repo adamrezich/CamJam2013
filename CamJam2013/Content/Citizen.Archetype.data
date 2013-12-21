@@ -57,4 +57,21 @@ Cog =
 		Vec3 Velocity = [0, 0, 0],
 		Vec3 AngularVelocity = [0, 0, 0],
 	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		bool LocalSpaceDirection = false,
+		float Strength = -10,
+		Vec3 Direction = [0, -1, 0],
+	},
+	SoundEmitter = 
+	{
+		bool StartPlaying = false,
+		int ExtraPriority = 0,
+		string CueName = "4e1bd44008b4dc2a:DefaultCue",
+		float Volume = 1,
+		float Pitch = 1,
+		bool Positional = true,
+	},
 },

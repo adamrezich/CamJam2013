@@ -4,15 +4,17 @@ import Property
 import VectorMath
 import Keys
 import math
+import random
 
 class DumptruckLogic:
-    MaxSpeed = 0.2
+    MaxSpeed = 0.1
     Acceleration = 0.0005
     Deceleration = 0.00025
     Speed = 0
     TurnSpeed = 0.035
     Velocity = VectorMath.Vec3()
-    Angle = 1.5
+    Angle = 0
+    StartingUp = True
     
     def Initialize(self, initializer):
         Zero.Connect(self.Space, Events.LogicUpdate, self.OnLogicUpdate)
@@ -20,9 +22,12 @@ class DumptruckLogic:
 
     def OnCollisionStarted(self, CollisionEvent):
         if CollisionEvent.OtherObject.Name == "Citizen":
-            CollisionEvent.OtherObject.Sprite.SpriteSource = "citizen_dumped"
-            CollisionEvent.OtherObject.BoxCollider.Ghost = True
-            CollisionEvent.OtherObject.Transform.Translation -= VectorMath.Vec3(0, 0, 0.5)
+            if not CollisionEvent.OtherObject.CitizenLogic.Dead:
+                CollisionEvent.OtherObject.CitizenLogic.Dead = True
+                CollisionEvent.OtherObject.Sprite.SpriteSource = "citizen_dumped"
+                CollisionEvent.OtherObject.BoxCollider.Ghost = True
+                CollisionEvent.OtherObject.Transform.Translation -= VectorMath.Vec3(0, 0, 0.5)
+                CollisionEvent.OtherObject.SoundEmitter.PlayCue(random.choice(["c_die_01", "c_die_02", "c_die_03", "c_die_04", "c_die_05", "c_die_06"]))
         pass
 
     def OnLogicUpdate(self, Event):
