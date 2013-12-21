@@ -3,9 +3,15 @@ ContentLibrary =
 	string Name = "CamJam2013",
 	Array Files = 
 	[
+		"Citizen.Archetype.data",
+		"CitizenLogic.py",
+		"Dumptruck.Archetype.data",
+		"DumptruckLogic.py",
 		"Game.data",
 		"Level.data",
 		"Space.data",
+		"citizen.png",
+		"citizen_dumped.png",
 		"dumptruck.png",
 	],
 	uint64 LibraryId = 52c99e27690d1944,
